@@ -3,7 +3,7 @@ import request from 'request';
 
 const httpRequest = request.defaults({ jar: true });
 
-const username = process.env.USERNAME;
+const username = process.env.USER_NAME;
 const password = process.env.PASSWORD;
 const userId = process.env.USER_ID;
 
